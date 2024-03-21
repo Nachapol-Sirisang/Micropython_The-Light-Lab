@@ -132,7 +132,7 @@ def display_problem():
         ans_range2 = answer[item][1]
         
         # Print Problem
-        oled.text('No. {}'.format(point), 0, 0)
+        oled.text('No. {}/8'.format(point), 0, 0)
         line = 10
         for msg in problems[item]:
             oled.text(msg, 0, line)
